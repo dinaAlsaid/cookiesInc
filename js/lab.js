@@ -15,8 +15,16 @@ if (currentH.getHours() >= 10 && currentH.getHours() <= 13){
     }
      flag = true;
 } else {
+
     document.write("<h3> Orders are closed <h3>");
     flag = false;
+    if (currentH.getHours() <= 10){
+        document.write("<p> We will open in  "+ (10-currentH.getHours())+ " hours <p>");
+    
+    } else if (currentH.getHours() >= 13){
+        document.write("<p> Come again tomorrow <p>");
+    
+    }
 }
 
 if (flag){
@@ -24,3 +32,4 @@ if (flag){
 } else {
     confirm ("sorry we're closed");
 }
+
