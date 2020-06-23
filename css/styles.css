@@ -59,7 +59,7 @@ section {
     display: inline-block;
     margin-bottom: 20px;
     margin-left: 20px;
-    background-color: #c1f5ff;
+    background-color:  rgb(215,240,245);
 
 }
 
@@ -95,4 +95,5 @@ footer {
     color:#c1f5ff;
     width: 100%;
     background-color: rgb(0,130,158);
+    opacity:80%;
 }
