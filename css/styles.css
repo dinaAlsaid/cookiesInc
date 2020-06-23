@@ -17,7 +17,9 @@ h1 {
     margin-top: 10px;
     margin-bottom: 0px;
 }
-
+h3 {
+    text-align: center;
+}
 nav {
     text-align: center;
     /* border: 1px solid; */
@@ -96,3 +98,4 @@ footer {
     background-color: rgb(0,130,158);
     opacity:80%;
 }
+
