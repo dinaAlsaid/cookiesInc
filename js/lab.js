@@ -34,7 +34,6 @@ function storeOpen(currentH) {
         return false;
     }
 }
-
 function welcomeNote(fl) {
     if (fl) {
         confirm("you can place an order");
@@ -43,6 +42,10 @@ function welcomeNote(fl) {
     }
 
 }
+function howManyCookies (){
+    var cookie = prompt("How many cookies you would like to order?");
+    document.write('<p> '+ cookie +' cookies have been placed in the oven <p>');
+}
 
 document.write("<h3> Hello " + userName() + " !!<h3>");
 
@@ -50,5 +53,6 @@ flag = storeOpen(day.getHours());
 
 welcomeNote(flag);
 
+howManyCookies();
 
 
