@@ -43,7 +43,11 @@ function welcomeNote(fl) {
 
 }
 function howManyCookies (){
+
     var cookie = prompt("How many cookies you would like to order?");
+    while(cookie === null || cookie == 0){
+        cookie = prompt("How many cookies you would like to order? ( will loop if 0 or null) ");
+    }
     document.write('<p> '+ cookie +' cookies have been placed in the oven <p>'); //this should only work when the orders are open
     //call it in the storeOpen function and not let the 
 }
