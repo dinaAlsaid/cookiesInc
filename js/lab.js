@@ -4,7 +4,7 @@ var day = new Date();
 var flag;
 function userName() {
     var name = prompt("Name (don't use numbers)");
-    if (/\d/.test(name)) {  //not my code (from stack overflow)
+    if (/\d/.test(name) || name === null) {  //not my code (from stack overflow)
         ///checks if the string has any numbers/// if it has numbers (true ) if not false
         return userName();  //will call the prompt again if there's numbers 
     }else { 
