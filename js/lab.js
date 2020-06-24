@@ -44,7 +44,8 @@ function welcomeNote(fl) {
 }
 function howManyCookies (){
     var cookie = prompt("How many cookies you would like to order?");
-    document.write('<p> '+ cookie +' cookies have been placed in the oven <p>');
+    document.write('<p> '+ cookie +' cookies have been placed in the oven <p>'); //this should only work when the orders are open
+    //call it in the storeOpen function and not let the 
 }
 
 document.write("<h3> Hello " + userName() + " !!<h3>");
