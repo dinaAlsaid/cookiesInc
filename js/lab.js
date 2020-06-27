@@ -52,12 +52,12 @@ function howManyCookies (){
     //call it in the storeOpen function and not let the 
 }
 
-document.write("<h3> Hello " + userName() + " !!<h3>");
+// document.write("<h3> Hello " + userName() + " !!<h3>");
 
 flag = storeOpen(day.getHours());
 
 welcomeNote(flag);
 
-howManyCookies();
+// howManyCookies();
 
 
