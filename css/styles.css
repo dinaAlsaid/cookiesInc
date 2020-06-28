@@ -1,59 +1,77 @@
 body {
-    background-color: #A7E5EB;
+    background-color: #381F36 ;
+    color: #88c9c2;
+    margin: 0px;
+
+
+}
+a:hover {
     color:#00829E;
 
 }
 header{
-    background-color: rgb(215,240,245) ;
-
+    background-color: #381F36;
+    color:#c1f5ff;
+    height: 5%;
+    padding-bottom: 0px;
 }
-
 h1 {
     display: inline-block;
-    color: #00829E; 
-    /* border: 1px solid; */
-    height: 50px;
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 0px;
 }
 h3 {
     text-align: center;
+    margin-top: 0px;
+    /* border: 1px solid; */
 }
 nav {
     text-align: center;
-    /* border: 1px solid; */
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0px 0px 0px 0px;
     margin-left: 0px;
     margin-right: 0px;
+    display: inline-block;
 
 
 }
 header nav{
-    display: inline-block;
-    height: 50px;
     width: 70% ;
-
+    /* border: 1px solid; */
+}
+header nav ul li {
+    background-color:#825E7F;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid #381F36;
+    width: 10em;
+    height: 100%;
+    display: inline-block;
+    margin-left: 0px;
 
 }
-nav ul li {
-    display: inline-block;
-    margin-left: 10%;
+header nav ul li :active {
+    border-bottom: 1px solid #825E7F;
 
 }
 nav ul {
     width: 100% ;
-    /* border: 1px solid; */
     padding-inline-start: 0px;
-
+    margin-bottom: 0px;
+    height: 1.5em;
+    /* border: 1px solid; */
 
 }
-header nav a {
-    color: #00829E; 
+nav a {
     list-style: none;
+    color: #88c9c2;
 }
-
+main{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #825E7F;
+    margin-top: 0px;
+}
 article{
     text-align: center;
 }
@@ -61,41 +79,44 @@ section {
     display: inline-block;
     margin-bottom: 20px;
     margin-left: 20px;
-    background-color:  rgb(215,240,245);
+    background-color: #381F36 ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
 
 }
-
 section p {
     width: 275px;
 }
-
-
 img{
     padding: 20px 20px 20px 20px;
-    background-color: #A6998E;
+    background-color: #669792 ;
     width: 200px;
     height:300px;
 
 }
-
 .order {
     background-color:#EBA86E;
     
 }
-footer nav a {
-    color:#c1f5ff; 
-    list-style: none;
+footer nav ul li {
+    width: 10em;
+    display: inline-block;
+    /* margin-left: 10%; */
+
 }
 
 footer nav{
-    /* border: 1px solid ; */
     margin: 0px 0px 0px 0px;
+    background-color: #381F36;
+    color:#c1f5ff;
 
 }
 footer {
-    color:#c1f5ff;
     width: 100%;
-    background-color: rgb(0,130,158);
-    opacity:80%;
+    color: rgb(0,130,158);
 }
-
+hr {
+    color: rgb(0,130,158);
+ 
+}
