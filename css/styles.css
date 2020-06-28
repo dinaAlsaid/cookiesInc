@@ -9,6 +9,9 @@ a:hover {
     color:#00829E;
 
 }
+a{
+    text-decoration: none;
+}
 header{
     background-color: #381F36;
     color:#c1f5ff;
@@ -55,6 +58,7 @@ header nav ul li :active {
 
 }
 nav ul {
+    
     width: 100% ;
     padding-inline-start: 0px;
     margin-bottom: 0px;
@@ -69,7 +73,7 @@ nav a {
 main{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: #825E7F;
+    background-image: linear-gradient(#825E7F,#381F36) ;
     margin-top: 0px;
 }
 article{
@@ -82,41 +86,55 @@ section {
     background-color: #381F36 ;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border: 0.5px solid #5e6166;
+    
 
 
 }
 section p {
-    width: 275px;
+    width: 275px ;
 }
 img{
     padding: 20px 20px 20px 20px;
     background-color: #669792 ;
     width: 200px;
     height:300px;
+    box-shadow: 0px -2px 10px #1b161b  ;
 
 }
 .order {
-    background-color:#EBA86E;
-    
+    background-color:#c1f5ff;
+    color:#00829E;
+    display: inline-block;
+    width: 100% ;  
+    height: 25px;  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px -2px 10px #1b161b  ;
+
 }
 footer nav ul li {
     width: 10em;
     display: inline-block;
     /* margin-left: 10%; */
+    color:#88c9c2;
+
 
 }
 
 footer nav{
     margin: 0px 0px 0px 0px;
     background-color: #381F36;
-    color:#c1f5ff;
+    color:#00829E;
 
 }
 footer {
     width: 100%;
-    color: rgb(0,130,158);
+    color: #00829E);
+    text-align: center;
+
 }
 hr {
-    color: rgb(0,130,158);
- 
+    border: 1px solid #88c9c2;
+    
 }
