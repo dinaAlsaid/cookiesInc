@@ -1,5 +1,7 @@
 body {
     font-family: 'Cinzel', serif;
+    margin-top:0px;
+    padding-top: 0px;
 }
 header{
     text-align: center;
@@ -7,21 +9,35 @@ header{
 
 }
 h1 {
-    text-align: left;
+    background: linear-gradient(grey,white);
+    margin-top: 50px;
+    padding-top: 50px;
     margin: inherit;
 }
 header > nav {
+    background-color: black;
     position: fixed;
     list-style: none;
     width:100%;
     float: left;
+    margin: 0px;
 }
-nav li {
+nav ul li {
     display: inline-block;
     list-style: none;
+    height: 100%;
+    padding-top: 10px;
+}
 
+nav ul li :hover{
+    background-color:grey;
 }
 ul{
     padding-inline-start: 0px;
+    padding:0px;
+    margin: 0px;
+    height: 50px;
+
 }
+
 
