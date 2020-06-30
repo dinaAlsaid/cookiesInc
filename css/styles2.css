@@ -1,0 +1,27 @@
+body {
+    font-family: 'Cinzel', serif;
+}
+header{
+    text-align: center;
+    margin: 0px;
+
+}
+h1 {
+    text-align: left;
+    margin: inherit;
+}
+header > nav {
+    position: fixed;
+    list-style: none;
+    width:100%;
+    float: left;
+}
+nav li {
+    display: inline-block;
+    list-style: none;
+
+}
+ul{
+    padding-inline-start: 0px;
+}
+
