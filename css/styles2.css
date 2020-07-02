@@ -72,6 +72,30 @@ li a{
     color: white;
 }
 
+ul{
+    display: block;
+
+}
+.list{
+    display: block;
+
+
+}
+.list-container{
+    padding: 0px 3px;
+    display: none;
+    background: grey;
+    position: relative;
+
+}
+#order-list:hover .list-container{
+    display: block;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
 section {
     display: inline-block;
     margin-bottom: 20px;
@@ -97,9 +121,8 @@ section>p{
     padding: 5% 10% 5% 10% ;
     background-color: rgb(240, 238, 235);
 
-
-
 }
+
 #script-div{
     display: inline-block;
     height: 100% ;
