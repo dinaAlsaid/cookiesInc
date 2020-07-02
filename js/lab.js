@@ -14,21 +14,21 @@ function userName() {
 function storeOpen(currentH) {
     if (currentH >= 10 && currentH <= 13) {
         if (13 - currentH == 1) {
-            document.write("<h3> You have " + (13 - currentH) + " hour to place an order <h3>");
+            document.write("<h3> You have " + (13 - currentH) + " hour to place an order </h3>");
 
         } else {
-            document.write("<h3> You have " + (13 - currentH) + " hours to place an order <h3>");
+            document.write("<h3> You have " + (13 - currentH) + " hours to place an order </h3>");
         }
         return true;
     } else {
 
-        document.write("<h3> Orders are closed <h3>");
+        document.write("<h3> Orders are closed </h3>");
 
         if (currentH <= 10) {
-            document.write("<p> We will open in  " + (10 - currentH) + " hours <p>");
+            document.write("<p> We will open in  " + (10 - currentH) + " hours </p>");
 
         } else if (currentH >= 13) {
-            document.write("<p> Come again tomorrow <p>");
+            document.write("<p> Come again tomorrow </p>");
 
         }
         return false;
@@ -52,7 +52,7 @@ function howManyCookies (){
     //call it in the storeOpen function and not let the 
 }
 
-// document.write("<h3> Hello " + userName() + " !!<h3>");
+// document.write("<h3> Hello " + userName() + " !!</h3>");
 
 flag = storeOpen(day.getHours());
 
