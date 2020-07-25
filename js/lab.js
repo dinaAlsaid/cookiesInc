@@ -56,7 +56,7 @@ function howManyCookies (){
 
 flag = storeOpen(day.getHours());
 
-welcomeNote(flag);
+// welcomeNote(flag);
 
 // howManyCookies();
 
